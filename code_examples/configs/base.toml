@@ -1,0 +1,5 @@
+[hello]
+import = "there.toml"
+
+[please.lanugage]
+import = "lookup/please.toml"

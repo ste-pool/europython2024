@@ -1,0 +1,16 @@
+[oven]
+preheat = true
+duration = 600
+temperature = 200
+
+[[oven.override]]
+when.type = "fan"
+temperature = 180
+duration = 500
+
+[icing]
+pre_trim_diameter = 5
+
+[[icing.override]]
+when.type = "fan"
+pre_trim_diameter = 6
